@@ -1,0 +1,393 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+/* End Font */
+
+/* Start Body*/
+body {
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body*/
+
+/* Start Debug */
+.bg-khaki {
+    background-color: khaki;
+}
+.bg-goldenrod {
+    background-color: rgb(240, 209, 133);
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* Start Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: rgb(248, 66, 6);
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: burlywood;
+    border-radius: 4px;
+    box-shadow: 5px 10px #888888;
+}
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: darksalmon;
+    color: black;
+    text-decoration-color: none; 
+}
+
+.menu-primer .active {
+    background-color: darksalmon;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: burlywood;
+    border: 1px solid ivory;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width:49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width:49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+/* End Main */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29%;
+}
+/* End Sidebar */
+
+/* Start Box */
+.box-heading {
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: ivory;
+    border: 1px solid dimgray;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+   border-left: 4px solid rgb(243, 228, 146);
+   margin-left: 30px;
+   padding-left: 20px; 
+}
+/* End Testimonial */
+
+/* Start Table Services */
+.table-services {
+    border: 1px solid rgb(235, 183, 120);
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.table-services th {
+    background-color: rgb(250, 169, 69);
+}
+.table-services td {
+    text-align: center;
+}
+/* End Table Services */
+
+/* Start Form */
+input [type="text"],
+input [type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+input::placeholder,
+textarea::placeholder {
+    color: grey;
+    font-weight:300;
+}
+
+input[type="submit"],
+.button {
+    background-color:rgb(226, 209, 53);
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: black !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form div {
+    margin: 20px 0;
+}
+/* End Contact Form */
+
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: rgb(247, 218, 181);
+    border-bottom: 1px solid rgb(247, 218, 181);
+    border-top: 1px solid rgb(247, 218, 181);
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two {
+    width: 30%;
+}
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Effect */
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1580 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 31%;
+  max-width: 31%;
+  width: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1580 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1580 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1580 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.snip1580 h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 3px 0;
+}
+.snip1580 h5 {
+  font-weight: 400;
+  margin: 0;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.snip1580 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1580:hover figcaption,
+.snip1580.hover figcaption {
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #fff;
+}
+.snip1580:hover h3,
+.snip1580.hover h3,
+.snip1580:hover h5,
+.snip1580.hover h5 {
+  color: #333;
+}
+
+
+/* End Effect */
+
+/* Start Jumbotron 2 */
+.jumbotron2 {
+    background-image: url(../image/pergola.jpg);
+    height: 200px;
+    padding: 20px;
+}
+.jumbotron2 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+.jumbotron2 p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(51, 51, 51, 0.9);
+    text-align: left;
+    line-height: 0.5;
+}
+/* End Jumbotron 2 */
+
+/* Start Effect 
