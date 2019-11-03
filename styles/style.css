@@ -1,5 +1,8 @@
 /* Start Font */
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 /* End Font */
 
 /* Start Body*/
@@ -87,6 +90,10 @@ a:active {
     color: black;
     text-decoration: none;
 }
+
+.margin-service {
+    margin-bottom: 10px;
+}
 /* End Menu Primer */
 
 /* Start Heading */
@@ -135,6 +142,7 @@ h6 {
 .main-home-one {
     float: left;
     width:49.5%;
+    overflow: hidden;
 }
 
 .main-home-two {
@@ -144,7 +152,8 @@ h6 {
 
 .main-home-one .box-isi,
 .main-home-two .box-isi {
-    height: 140px;
+    height: 210px;
+    text-align: left;
 }
 
 .main-one {
@@ -186,13 +195,88 @@ h6 {
 /* End Box */
 
 /* Start Testimonial */
-.testimonial {
-   border-left: 4px solid rgb(243, 228, 146);
-   margin-left: 30px;
-   padding-left: 20px; 
+.snip1533 {
+  box-shadow: 0 0 5px rgba(236, 229, 229, 0.15);
+  color: #2c2a2a;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  margin: 29px 10px 10px;
+  max-width: 60%;
+  min-width: 20%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #0c0502;
+}
+
+.snip1533 *,
+.snip1533 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.snip1533 figcaption {
+  padding: 13% 10% 12%;
+}
+
+.snip1533 figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #d2652d;
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.snip1533 h3 {
+  color: #e6d8d8;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.snip1533 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.snip1533 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 13px;
+}
+
+.snip1533 blockquote p {
+    font-size: 10pt;
+  }
+
+/* Demo purposes only */
+
+body {
+  background-color: white;
+  text-align: left;
 }
 /* End Testimonial */
-
+.content-center {
+    text-align: center;
+    margin: auto;
+}
 /* Start Table Services */
 .table-services {
     border: 1px solid rgb(235, 183, 120);
@@ -298,7 +382,7 @@ input[type="submit"],
 /* Start Effect */
 
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 .snip1580 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
