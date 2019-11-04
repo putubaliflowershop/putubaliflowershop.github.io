@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 /* End Font */
 
 /* Start Body*/
@@ -187,7 +188,7 @@ h6 {
 
 .box-isi {
     background-color: ivory;
-    border: 1px solid dimgray;
+    border: 1px solid burlywood;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
@@ -380,9 +381,6 @@ input[type="submit"],
 /* End Copyright */
 
 /* Start Effect */
-
-
-
 .snip1580 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -392,11 +390,11 @@ input[type="submit"],
   min-width: 31%;
   max-width: 31%;
   width: 50%;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: none;
+  color: rgb(247, 240, 240);
   text-align: left;
   font-size: 16px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px white;
 }
 .snip1580 * {
   -webkit-transition: all 0.35s;
@@ -415,7 +413,7 @@ input[type="submit"],
   left: 0;
   right: 0;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color:black;
 }
 .snip1580 h3 {
   font-size: 20px;
@@ -474,4 +472,89 @@ input[type="submit"],
 }
 /* End Jumbotron 2 */
 
-/* Start Effect 
+/* Start our creations  */
+.ours {
+    font-size: 12pt;
+    /* background-color: rgb(223, 151, 58); */
+    background-image: linear-gradient(-180deg, rgb(223, 151, 58) 0%, rgb(223, 151, 58) 90%);
+}
+/* End our creations  */
+
+/* Start our activity  */
+.activity{
+    font-size: 12pt;
+    /* background-color: rgb(223, 151, 58); */
+    background-image: linear-gradient(-180deg, rgb(223, 151, 58) 0%, rgb(223, 151, 58) 90%);
+}
+/* End our activity  */
+
+/* Start flowers  */
+.snip1571 {
+background-color: #000;
+display: inline-block;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+margin: 10px;
+max-width: 31%;
+min-width: 31%;
+overflow: hidden;
+position: relative;
+text-align: center;
+width: 100%;
+}
+.snip1571 *,
+.snip1571 *:before {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-transition: all 0.35s ease;
+transition: all 0.35s ease;
+}
+.snip1571 img {
+backface-visibility: hidden;
+max-width: 100%;
+vertical-align: top;
+}
+.snip1571 figcaption {
+bottom: 30px;
+left: 0;
+position: absolute;
+z-index: 0;
+}
+.snip1571 figcaption:before {
+background-color: #ffffff;
+bottom: -5px;
+content: '';
+left: 0;
+position: absolute;
+right: 100%;
+top: -5px;
+z-index: -1;
+}
+.snip1571 h3 {
+background-color: #e06a6a;
+color: #ffffff;
+font-size: 0.9em;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 0;
+padding: 5px 10px;
+text-transform: uppercase;
+z-index: 1;
+}
+.snip1571 a {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+.snip1571:hover > img,
+.snip1571.hover > img {
+opacity: 0.1;
+}
+.snip1571:hover figcaption:before,
+.snip1571.hover figcaption:before {
+right: -5px;
+}
+/* End flowers  */
